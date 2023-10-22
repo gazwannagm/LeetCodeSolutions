@@ -1,4 +1,4 @@
 # LeetCodeSolutions
 
-## Easy Level
+## Entry Level 
 
