@@ -3,6 +3,7 @@ public bool BackspaceCompare(string s, string t) {
     int i = s.Length - 1;
     int j = t.Length - 1;
     
+    
     while (i >= 0 || j >= 0) {
         int backspaces = 0;
         
