@@ -4,8 +4,7 @@ public class Solution {
         if (string.IsNullOrEmpty(s)) {
             return 0; 
         }
-        int lastIndex = s.LastIndexOf(' ');
-        string lastword = s.Substring(lastIndex + 1);
+        string lastword = s.Substring(s.LastIndexOf(' ') + 1);
         return lastword.Length;
     }
 }
